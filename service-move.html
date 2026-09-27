@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>شركة ساعد للاستقدام -     طلب نقل خدمات</title>
+<meta name="description" content="عاملات متاحات لنقل الخدمات داخل المملكة العربية السعودية لدى شركة ساعد للاستقدام.">
+<link rel="canonical" href="https://saeid-hr.online/service-move.html">
+<link rel="icon" href="https://saeid-hr.online/images/logo.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="شركة ساعد للاستقدام">
+<meta property="og:locale" content="ar_SA">
+<meta property="og:url" content="https://saeid-hr.online/service-move.html">
+<meta property="og:title" content="شركة ساعد للاستقدام - طلب نقل خدمات">
+<meta property="og:description" content="عاملات متاحات لنقل الخدمات داخل المملكة العربية السعودية لدى شركة ساعد للاستقدام.">
+<meta property="og:image" content="https://saeid-hr.online/images/hero-bg.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@500;600;700&family=Almarai:wght@400;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --gold:#c98a3e;
+    --gold-dark:#a86f2c;
+    --navy:#233b5e;
+    --navy-2:#172a44;
+    --mint:#f3ede0;
+    --pill:#f0e3cc;
+    --border:#e4ddcb;
+    --text:#2c2a24;
+    --muted:#85795f;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{
+    font-family:"Almarai","Tahoma",sans-serif;
+    color:var(--text);
+    background:#fff;
+    max-width:480px;
+    margin:0 auto;
+  }
+  a{color:inherit;text-decoration:none;}
+  img{max-width:100%;display:block;}
+  h1,h2,h3{font-family:"El Messiri","Almarai",sans-serif;}
+  select{font-family:inherit;}
+
+  .topbar{
+    background:var(--navy-2);color:#f1e9d8;text-align:center;padding:9px 16px;
+    font-size:12.5px;line-height:1.6;
+  }
+  .topbar .social{display:flex;justify-content:center;gap:10px;margin-top:8px;font-size:16px;}
+  .topbar .social span{opacity:.5;}
+
+  header{
+    display:flex;align-items:center;justify-content:space-between;
+    padding:14px 16px;background:#fff;border-bottom:1px solid var(--border);
+    position:sticky;top:0;z-index:20;
+  }
+  .burger{
+    width:44px;height:40px;border:1px solid #ddd;border-radius:8px;
+    display:flex;align-items:center;justify-content:center;flex-direction:column;gap:4px;
+  }
+  .burger span{width:18px;height:2px;background:#444;display:block;}
+  .brand{display:flex;align-items:center;}
+  .brand-logo{height:44px;width:auto;}
+
+  .page-title{padding:30px 20px 20px;text-align:center;}
+  .page-title h1{font-size:22px;color:var(--text);margin-bottom:8px;}
+  .page-title p{font-size:14px;color:var(--muted);}
+
+  .search-box{background:var(--mint);padding:28px 20px 30px;text-align:center;border-top:1px solid var(--border);border-bottom:1px solid var(--border);}
+  .search-box h2{color:var(--navy);font-size:19px;margin-bottom:20px;}
+  .search-field{margin-bottom:14px;text-align:right;}
+  .search-field label{display:block;color:var(--navy);font-size:13px;font-weight:700;margin-bottom:6px;}
+  .search-field select{
+    width:100%;padding:12px 14px;border:1px solid var(--border);border-radius:8px;font-size:14px;color:var(--text);background:#fff;
+  }
+  .search-actions{display:flex;gap:10px;margin-top:16px;}
+  .search-actions button{
+    flex:1;padding:12px;border-radius:8px;font-size:14px;font-weight:700;border:none;
+  }
+  .btn-reset{background:transparent;color:var(--navy);border:1.3px solid var(--navy) !important;}
+  .btn-search{background:var(--gold);color:#fff;}
+
+  .worker-card{
+    border:1px solid var(--border);border-radius:10px;margin:20px;overflow:hidden;
+  }
+  .worker-doc img{width:100%;display:block;}
+  .worker-body{padding:18px;text-align:center;}
+  .worker-name{font-size:17px;font-weight:700;color:var(--text);margin-bottom:4px;}
+  .worker-id{font-size:12px;color:var(--muted);margin-bottom:16px;}
+  .worker-grid{
+    display:grid;grid-template-columns:1fr 1fr;gap:14px 10px;text-align:right;margin-bottom:18px;
+  }
+  .worker-grid div{font-size:13px;line-height:1.7;}
+  .worker-grid b{color:var(--navy);font-weight:700;}
+  .worker-actions{display:flex;gap:10px;flex-wrap:wrap;}
+  .worker-actions a{
+    flex:1;text-align:center;padding:11px 0;border-radius:8px;font-size:13px;font-weight:700;min-width:100px;
+  }
+  .btn-cv{border:1.3px solid var(--navy-2);color:var(--navy-2);}
+  .btn-video{border:1.3px solid var(--gold);color:var(--gold-dark);}
+  .btn-book{background:var(--gold);color:#fff;}
+
+  footer{background:var(--navy-2);color:#fff;padding:36px 20px 24px;text-align:center;}
+  footer h3{font-size:16px;margin-bottom:16px;}
+  footer .flogo{height:44px;width:auto;margin:0 auto 16px;filter:brightness(0) invert(1);}
+  footer p{font-size:13px;color:#cfd9df;line-height:1.9;margin-bottom:18px;}
+  .fsocial{display:flex;justify-content:center;gap:12px;margin-bottom:26px;}
+  .fsocial a{
+    width:38px;height:38px;background:#fff;border-radius:8px;color:var(--navy-2);
+    display:flex;align-items:center;justify-content:center;font-size:16px;
+  }
+  footer h4{font-size:15px;margin-bottom:14px;}
+  footer .fline{font-size:13px;color:#dfe7eb;margin-bottom:10px;line-height:1.8;}
+  .copyright{
+    margin-top:20px;padding-top:16px;border-top:1px solid rgba(255,255,255,.15);
+    font-size:12px;color:#a9bdc6;
+  }
+
+  .headset-fab{
+    position:fixed;bottom:22px;left:16px;width:54px;height:54px;border-radius:50%;
+    background:var(--gold);color:#fff;display:flex;align-items:center;justify-content:center;
+    font-size:22px;box-shadow:0 6px 16px rgba(0,0,0,.2);z-index:30;
+  }
+
+  /* nav menu */
+  .burger{cursor:pointer;}
+  .nav-overlay{
+    position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:40;
+    opacity:0;pointer-events:none;transition:opacity .25s;
+  }
+  .nav-overlay.open{opacity:1;pointer-events:auto;}
+  .nav-menu{
+    position:fixed;top:0;right:-280px;width:260px;max-width:80%;height:100%;
+    background:#fff;z-index:50;box-shadow:-6px 0 24px rgba(0,0,0,.18);
+    transition:right .28s ease;overflow-y:auto;
+  }
+  .nav-menu.open{right:0;}
+  .nav-menu-header{
+    display:flex;align-items:center;justify-content:space-between;
+    padding:16px;border-bottom:1px solid var(--border);
+  }
+  .nav-menu-header img{height:36px;width:auto;}
+  .nav-close{
+    width:34px;height:34px;border:1px solid #ddd;border-radius:8px;background:#fff;
+    display:flex;align-items:center;justify-content:center;font-size:16px;color:#666;cursor:pointer;
+  }
+  .nav-links{padding:8px 0;}
+  .nav-links a{
+    display:block;padding:15px 20px;font-size:15px;color:var(--text);
+    border-bottom:1px solid #f2f2f2;text-align:right;
+  }
+  .nav-links a.active{color:var(--gold-dark);font-weight:700;background:#faf8f3;}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  🏠 المملكة العربية السعودية - مرخصة من وزارة الموارد البشرية و منصة مساند بترخيص رقم 52
+  <div class="social">
+    <span>◎</span><span>👻</span><span>♪</span><span>▶</span><span>𝕏</span>
+  </div>
+</div>
+
+<header>
+  <div class="burger" id="navBurger" onclick="openNav()"><span></span><span></span><span></span></div>
+  <a href="index.html" class="brand">
+    <img class="brand-logo" src="images/logo.png" alt="شركة ساعد للاستقدام - شركة ساعد .. ساعدك اليمين">
+  </a>
+</header>
+
+<div class="nav-overlay" id="navOverlay" onclick="closeNav()"></div>
+<nav class="nav-menu" id="navMenu">
+  <div class="nav-menu-header">
+    <img src="images/logo.png" alt="شركة ساعد للاستقدام">
+    <button class="nav-close" onclick="closeNav()" aria-label="إغلاق">✕</button>
+  </div>
+  <div class="nav-links">
+    <a href="index.html">الرئيسية</a>
+    <a href="countries.html">دول الاستقدام والأسعار</a>
+    <a href="all-workers.html">العاملات المتاحة</a>
+    <a href="rental.html">طلب إيجار شهري</a>
+    <a href="service-move.html" class="active">نقل خدمات</a>
+    <a href="services.html">خدماتنا</a>
+    <a href="track-order.html">تتبع طلبك</a>
+  </div>
+</nav>
+
+<div class="page-title">
+  <h1>إبحث عن طلبك</h1>
+  <p>أفضل شركة استقدام العمالة المنزلية بمعايير دولية ومهنية عالية</p>
+</div>
+
+<div class="search-box">
+  <h2>بحث متقدم</h2>
+  <div class="search-field">
+    <label>الجنسية</label>
+    <select>
+      <option>جميع الجنسيات</option>
+      <option>اوغندا</option>
+      <option>كينيا</option>
+      <option>الفلبين</option>
+      <option>سيريلانكا</option>
+      <option>إثيوبيا</option>
+      <option>بوروندي</option>
+      <option>بنجلاديش</option>
+      <option>الهند</option>
+    </select>
+  </div>
+  <div class="search-field">
+    <label>العمر المطلوب</label>
+    <select>
+      <option>جميع الاعمار</option>
+      <option>من 20 سنة إلي 30 سنة</option>
+      <option>من 31 سنة إلي 40 سنة</option>
+      <option>من 41 سنة إلي 49 سنة</option>
+      <option>من 50 سنة إلي 55 سنة</option>
+    </select>
+  </div>
+  <div class="search-field">
+    <label>المهنة المطلوبة</label>
+    <select>
+      <option>جميع المهن</option>
+      <option>عاملة منزلية</option>
+      <option>سائق خاص</option>
+      <option>عامل منزلي</option>
+    </select>
+  </div>
+  <div class="search-field" style="margin-bottom:0;">
+    <label>الديانة</label>
+    <select>
+      <option>جميع الديانات</option>
+      <option>مسلم / ة</option>
+      <option>غير مسلم / ة</option>
+    </select>
+  </div>
+  <div class="search-actions">
+    <button class="btn-reset" onclick="location.href='service-move.html'">إعادة تهيئة البحث</button>
+    <button class="btn-search">إبحث</button>
+  </div>
+</div>
+
+<div class="worker-card">
+  <div class="worker-doc"><img src="images/workers/move/annabel.jpg" alt="Annabel Emba Engay"></div>
+  <div class="worker-body">
+    <div class="worker-name">ANNABEL EMBA ENGAY</div>
+    <div class="worker-id">#22360</div>
+    <div class="worker-grid">
+      <div><b>الجنسية:</b> الفلبين</div>
+      <div><b>المهنة:</b> عاملة منزلية</div>
+      <div><b>الديانة:</b> غير مسلم</div>
+      <div><b>سعر الاستقدام:</b> 14896 ريال</div>
+      <div><b>العمر:</b> 49 سنة</div>
+      <div><b>الخبرة العملية:</b> لديه خبرة سابقة</div>
+      <div><b>الراتب:</b> 1500 ريال</div>
+    </div>
+    <div class="worker-actions">
+      <a class="btn-cv" href="images/workers/move/annabel.jpg" target="_blank">تحميل السيفي</a>
+      <a class="btn-book" href="https://wa.me/966595901541?text=مرحبا،%20أرغب%20بحجز%20العاملة%20Annabel%20Emba%20Engay">احجز الآن</a>
+    </div>
+  </div>
+</div>
+
+<div class="worker-card">
+  <div class="worker-doc"><img src="images/workers/move/beriso.jpg" alt="Beriso Sunete Bebiso"></div>
+  <div class="worker-body">
+    <div class="worker-name">BERISO SUNETE BEBISO</div>
+    <div class="worker-id">#20626</div>
+    <div class="worker-grid">
+      <div><b>الجنسية:</b> إثيوبيا</div>
+      <div><b>المهنة:</b> عاملة منزلية</div>
+      <div><b>الديانة:</b> مسلم</div>
+      <div><b>سعر الاستقدام:</b> 3796 ريال</div>
+      <div><b>العمر:</b> 24 سنة</div>
+      <div><b>الخبرة العملية:</b> قادم جديد</div>
+      <div><b>الراتب:</b> 1000 ريال</div>
+    </div>
+    <div class="worker-actions">
+      <a class="btn-cv" href="images/workers/move/beriso.jpg" target="_blank">تحميل السيفي</a>
+      <a class="btn-book" href="https://wa.me/966595901541?text=مرحبا،%20أرغب%20بحجز%20العاملة%20Beriso%20Sunete%20Bebiso">احجز الآن</a>
+    </div>
+  </div>
+</div>
+
+<div class="worker-card">
+  <div class="worker-doc"><img src="images/workers/move/irankunda.jpg" alt="Irankunda Belyse"></div>
+  <div class="worker-body">
+    <div class="worker-name">IRANKUNDA BELYSE</div>
+    <div class="worker-id">#19912</div>
+    <div class="worker-grid">
+      <div><b>الجنسية:</b> بوروندي</div>
+      <div><b>المهنة:</b> عاملة منزلية</div>
+      <div><b>الديانة:</b> غير مسلم</div>
+      <div><b>سعر الاستقدام:</b> 5396 ريال</div>
+      <div><b>العمر:</b> 28 سنة</div>
+      <div><b>الخبرة العملية:</b> قادم جديد</div>
+      <div><b>الراتب:</b> 800 ريال</div>
+    </div>
+    <div class="worker-actions">
+      <a class="btn-cv" href="images/workers/move/irankunda.jpg" target="_blank">تحميل السيفي</a>
+      <a class="btn-video" href="https://drive.google.com/file/d/1ujDqv1_Dl7PNaG9nOtH3mhTTpeM4JzEN/view?usp=sharing" target="_blank">عرض الفيديو</a>
+      <a class="btn-book" href="https://wa.me/966595901541?text=مرحبا،%20أرغب%20بحجز%20العاملة%20Irankunda%20Belyse">احجز الآن</a>
+    </div>
+  </div>
+</div>
+
+<div class="worker-card">
+  <div class="worker-doc"><img src="images/workers/move/dorcas.jpg" alt="Dorcas Wambui Nduati"></div>
+  <div class="worker-body">
+    <div class="worker-name">DORCAS WAMBUI NDUATI</div>
+    <div class="worker-id">#19534</div>
+    <div class="worker-grid">
+      <div><b>الجنسية:</b> كينيا</div>
+      <div><b>المهنة:</b> عاملة منزلية</div>
+      <div><b>الديانة:</b> غير مسلم</div>
+      <div><b>سعر الاستقدام:</b> 5999 ريال</div>
+      <div><b>العمر:</b> 30 سنة</div>
+      <div><b>الخبرة العملية:</b> قادم جديد</div>
+      <div><b>الراتب:</b> 900 ريال</div>
+    </div>
+    <div class="worker-actions">
+      <a class="btn-cv" href="images/workers/move/dorcas.jpg" target="_blank">تحميل السيفي</a>
+      <a class="btn-video" href="https://drive.google.com/file/d/1pXMsbcJH7K4b67gX0ZKVf8T7fp_reIeh/view?usp=sharing" target="_blank">عرض الفيديو</a>
+      <a class="btn-book" href="https://wa.me/966595901541?text=مرحبا،%20أرغب%20بحجز%20العاملة%20Dorcas%20Wambui%20Nduati">احجز الآن</a>
+    </div>
+  </div>
+</div>
+
+<div class="worker-card">
+  <div class="worker-doc"><img src="https://www.saaid-sa.online/frontend/images/users/1788176479.jpg" alt="Kamila Amin Adem"></div>
+  <div class="worker-body">
+    <div class="worker-name">KAMILA AMIN ADEM</div>
+    <div class="worker-id">#17840</div>
+    <div class="worker-grid">
+      <div><b>الجنسية:</b> إثيوبيا</div>
+      <div><b>المهنة:</b> عاملة منزلية</div>
+      <div><b>الديانة:</b> مسلم</div>
+      <div><b>سعر الاستقدام:</b> 3796 ريال</div>
+      <div><b>العمر:</b> 24 سنة</div>
+      <div><b>الخبرة العملية:</b> قادم جديد</div>
+      <div><b>الراتب:</b> 1000 ريال</div>
+    </div>
+    <div class="worker-actions">
+      <a class="btn-cv" href="https://www.saaid-sa.online/frontend/images/users/1788176479.jpg" target="_blank">تحميل السيفي</a>
+      <a class="btn-book" href="https://wa.me/966595901541?text=مرحبا،%20أرغب%20بحجز%20العاملة%20Kamila%20Amin%20Adem">احجز الآن</a>
+    </div>
+  </div>
+</div>
+
+<div class="worker-card">
+  <div class="worker-doc"><img src="images/workers/move/margret.jpg" alt="Nabawanuka Margret"></div>
+  <div class="worker-body">
+    <div class="worker-name">NABAWANUKA MARGRET</div>
+    <div class="worker-id">#16006</div>
+    <div class="worker-grid">
+      <div><b>الجنسية:</b> اوغندا</div>
+      <div><b>المهنة:</b> عاملة منزلية</div>
+      <div><b>الديانة:</b> غير مسلم</div>
+      <div><b>سعر الاستقدام:</b> 4555 ريال</div>
+      <div><b>العمر:</b> 22 سنة</div>
+      <div><b>الخبرة العملية:</b> قادم جديد</div>
+      <div><b>الراتب:</b> 900 ريال</div>
+    </div>
+    <div class="worker-actions">
+      <a class="btn-cv" href="images/workers/move/margret.jpg" target="_blank">تحميل السيفي</a>
+      <a class="btn-book" href="https://wa.me/966595901541?text=مرحبا،%20أرغب%20بحجز%20العاملة%20Nabawanuka%20Margret">احجز الآن</a>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <h3>شركة ساعد للاستقدام</h3>
+  <img class="flogo" src="images/logo.png" alt="شركة ساعد للاستقدام">
+  <p>من أبرز الشركات المتخصصة في توفير القوى البشرية بمعايير دولية ومهنية عالية و وفق الأنظمة الحكومية المعتمدة</p>
+  <div class="fsocial">
+    <a href="https://www.instagram.com/saed.company">◎</a>
+    <a href="https://twitter.com/Saaid_co">𝕏</a>
+    <a href="https://www.snapchat.com/add/saadcompany">👻</a>
+  </div>
+  <h4>تواصل معنا</h4>
+  <div class="fline">🏠 المملكة العربية السعودية - مرخصة من وزارة الموارد البشرية و منصة مساند بترخيص رقم 52</div>
+  <div class="fline">📞 <a href="tel:0595901541" dir="ltr">059 590 1541</a></div>
+  <div class="copyright">© 2026 شركة ساعد للاستقدام · <a href="https://saeid-hr.online/" dir="ltr">saeid-hr.online</a></div>
+</footer>
+
+<a class="headset-fab" href="https://wa.me/966595901541">🎧</a>
+
+
+<script>
+  function openNav(){
+    document.getElementById('navMenu').classList.add('open');
+    document.getElementById('navOverlay').classList.add('open');
+  }
+  function closeNav(){
+    document.getElementById('navMenu').classList.remove('open');
+    document.getElementById('navOverlay').classList.remove('open');
+  }
+</script>
+</body>
+</html>
